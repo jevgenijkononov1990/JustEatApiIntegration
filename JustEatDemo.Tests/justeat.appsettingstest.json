@@ -1,0 +1,23 @@
+﻿{
+  "JustEatIntegration": {
+    "CoreUrl": "https://public.je-apis.com",
+    "RestaurantsEndpoint": "restaurants",
+    "RestaurantsRequestType": "GET",
+    "RequestHeader": [
+      {
+        "Key": "Accept-Tenant",
+        "Value": "uk"
+      },
+      {
+        "Key": "Accept-Language",
+        "Value": "en-GB"
+      }
+    ],
+    "QueryParameters": [
+      {
+        "Key": "q",
+        "Description": "postcode"
+      }
+    ]
+  }
+}
